@@ -1,0 +1,24 @@
+/* src/components/Skills.css */
+
+#skills {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+    columns: 2;
+    column-gap: 2rem;
+}
+
+#skills li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #073642be;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

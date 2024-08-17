@@ -1,0 +1,34 @@
+/* src/components/Header.css */
+
+header {
+    background: #073642;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}

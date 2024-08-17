@@ -1,0 +1,47 @@
+/* src/components/Projects.css */
+
+.projects {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    background: #c2ffed0c;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #A3BE8C; /* Updated color */
+}
+
+.project p {
+    margin: 0.5rem 0;
+}
+.project p {
+    margin: 0;
+}
+.project ul {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
